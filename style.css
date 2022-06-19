@@ -24,9 +24,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 3em;
 }
 
-#game > .hidden {
+#game > .box0 {
   display: hidden;
   border: none;
   background: transparent;
@@ -37,10 +38,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 1em;
-}
-
-i {
-  font-size: 3em;
 }
 
 button {
